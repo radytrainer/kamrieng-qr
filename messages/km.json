@@ -1,0 +1,576 @@
+{
+  "common": {
+    "save": "រក្សាទុកការផ្លាស់ប្តូរ",
+    "cancel": "បោះបង់",
+    "delete": "លុប",
+    "edit": "កែសម្រួល",
+    "view": "មើល",
+    "search": "ស្វែងរក",
+    "close": "បិទ",
+    "confirm": "បញ្ជាក់",
+    "loading": "កំពុងផ្ទុក…",
+    "noResultsFound": "រកមិនឃើញលទ្ធផលទេ។",
+    "active": "សកម្ម",
+    "inactive": "អសកម្ម",
+    "create": "បង្កើត",
+    "current": "បច្ចុប្បន្ន"
+  },
+  "nav": {
+    "dashboard": "ផ្ទាំងគ្រប់គ្រង",
+    "students": "សិស្ស",
+    "academics": "សិក្សាធិការ",
+    "cards": "ប័ណ្ណសម្គាល់ខ្លួន",
+    "settings": "ការកំណត់"
+  },
+  "layout": {
+    "language": "ភាសា",
+    "toggleTheme": "ប្តូររបៀបងងឹត/ភ្លឺ",
+    "languageSwitcher": {
+      "khmer": "ខ្មែរ",
+      "english": "English"
+    },
+    "profile": {
+      "myProfile": "ប្រវត្តិរូបរបស់ខ្ញុំ",
+      "signOut": "ចាកចេញ",
+      "defaultUser": "អ្នកប្រើប្រាស់",
+      "dialogTitle": "ប្រវត្តិរូបរបស់ខ្ញុំ",
+      "displayName": "ឈ្មោះបង្ហាញ",
+      "saveProfile": "រក្សាទុកប្រវត្តិរូប",
+      "changePasswordTitle": "ប្តូរពាក្យសម្ងាត់",
+      "currentPassword": "ពាក្យសម្ងាត់បច្ចុប្បន្ន",
+      "newPassword": "ពាក្យសម្ងាត់ថ្មី",
+      "confirmPassword": "បញ្ជាក់ពាក្យសម្ងាត់ថ្មី",
+      "changePasswordButton": "ប្តូរពាក្យសម្ងាត់",
+      "toast": {
+        "updated": "ប្រវត្តិរូបត្រូវបានធ្វើបច្ចុប្បន្នភាព",
+        "passwordChanged": "ពាក្យសម្ងាត់ត្រូវបានផ្លាស់ប្តូរ"
+      }
+    },
+    "collapse": "បង្រួម"
+  },
+  "enums": {
+    "role": {
+      "super_admin": "អ្នកគ្រប់គ្រងកំពូល",
+      "school_admin": "អ្នកគ្រប់គ្រងសាលា",
+      "teacher": "គ្រូបង្រៀន",
+      "student": "សិស្ស",
+      "visitor": "ភ្ញៀវ"
+    },
+    "studentStatus": {
+      "active": "កំពុងសិក្សា",
+      "inactive": "អសកម្ម",
+      "graduated": "បានបញ្ចប់ការសិក្សា",
+      "suspended": "ផ្អាក",
+      "transferred": "បានផ្ទេរ",
+      "expelled": "បណ្ដេញចេញ"
+    },
+    "gender": {
+      "male": "ប្រុស",
+      "female": "ស្រី",
+      "other": "ផ្សេងៗ"
+    }
+  },
+  "entity": {
+    "student": "សិស្ស",
+    "class": "ថ្នាក់រៀន",
+    "academicYear": "ឆ្នាំសិក្សា",
+    "user": "អ្នកប្រើប្រាស់",
+    "parent": "ឪពុកម្តាយ"
+  },
+  "toast": {
+    "created": "{entity} ត្រូវបានបង្កើត",
+    "updated": "{entity} ត្រូវបានធ្វើបច្ចុប្បន្នភាព",
+    "deleted": "{entity} ត្រូវបានលុប",
+    "genericError": "មានបញ្ហាកើតឡើង។ សូមព្យាយាមម្តងទៀត។",
+    "signedOut": "បានចាកចេញ"
+  },
+  "validation": {
+    "required": "ត្រូវការបំពេញ",
+    "emailInvalid": "សូមបញ្ចូលអាសយដ្ឋានអ៊ីមែលឱ្យបានត្រឹមត្រូវ",
+    "passwordMinLength": "ពាក្យសម្ងាត់ត្រូវមានយ៉ាងតិច {min} តួអក្សរ",
+    "passwordsDoNotMatch": "ពាក្យសម្ងាត់មិនត្រូវគ្នាទេ",
+    "endDateAfterStart": "ថ្ងៃបញ្ចប់ត្រូវតែក្រោយថ្ងៃចាប់ផ្តើម",
+    "selectAcademicYear": "សូមជ្រើសរើសឆ្នាំសិក្សា"
+  },
+  "public": {
+    "login": {
+      "title": "ការចូលសម្រាប់បុគ្គលិក និងគ្រូបង្រៀន",
+      "subtitle": "ចូលប្រើប្រព័ន្ធគ្រប់គ្រងសិស្ស"
+    },
+    "unauthorized": {
+      "title": "គ្មានសិទ្ធិចូលប្រើ",
+      "description": "គណនីរបស់អ្នកគ្មានសិទ្ធិមើលទំព័រនេះទេ។ ប្រសិនបើអ្នកគិតថានេះជាកំហុស សូមទាក់ទងអ្នកគ្រប់គ្រងសាលារបស់អ្នក។",
+      "backToSignIn": "ត្រឡប់ទៅការចូល"
+    },
+    "verification": {
+      "fullProfile": "ប្រវត្តិរូបពេញលេញ",
+      "success": {
+        "verified": "សិស្សបានផ្ទៀងផ្ទាត់",
+        "personalInfo": "ព័ត៌មានផ្ទាល់ខ្លួន",
+        "sex": "ភេទ",
+        "dob": "ថ្ងៃខែឆ្នាំកំណើត",
+        "phone": "ទូរស័ព្ទ",
+        "address": "អាសយដ្ឋាន",
+        "parentGuardian": "ឪពុកម្តាយ / អាណាព្យាបាល",
+        "father": "ឪពុក",
+        "mother": "ម្តាយ",
+        "active": "កំពុងសិក្សា",
+        "studentCode": "អត្តលេខ: {code}",
+        "classLabel": "ថ្នាក់ {className}"
+      },
+      "failed": {
+        "not_found": {
+          "title": "កូដ QR មិនត្រឹមត្រូវ",
+          "description": "កូដ QR នេះមិនត្រូវគ្នានឹងកំណត់ត្រាសិស្សណាមួយឡើយ។"
+        },
+        "expired": {
+          "title": "ប័ណ្ណបានផុតកំណត់",
+          "description": "ប័ណ្ណសម្គាល់ខ្លួនរបស់សិស្សនេះបានផុតកំណត់ហើយ។"
+        },
+        "inactive": {
+          "title": "សិស្សមិនកំពុងសិក្សា",
+          "description": "សិស្សនេះមិនកំពុងសិក្សានៅសាលានេះទេនាពេលបច្ចុប្បន្ន។"
+        }
+      }
+    }
+  },
+  "admin": {
+    "students": {
+      "statusBadge": {
+        "expired": "ផុតកំណត់"
+      },
+      "form": {
+        "identityCard": "អត្តសញ្ញាណ",
+        "photo": "រូបថត",
+        "studentId": "អត្តលេខសិស្ស",
+        "studentIdPlaceholder": "បង្កើតដោយស្វ័យប្រវត្តិ ប្រសិនបើទុកទទេ",
+        "sex": "ភេទ",
+        "nameKhmer": "ឈ្មោះ (ខ្មែរ)",
+        "dateOfBirth": "ថ្ងៃខែឆ្នាំកំណើត",
+        "phoneNumber": "លេខទូរស័ព្ទ",
+        "address": "អាសយដ្ឋាន",
+        "classField": "ថ្នាក់រៀន",
+        "selectClassPlaceholder": "ជ្រើសរើសថ្នាក់រៀន",
+        "parentsCard": "ឪពុកម្តាយ / អាណាព្យាបាល",
+        "fatherName": "ឈ្មោះឪពុក",
+        "fatherPhone": "ទូរស័ព្ទឪពុក",
+        "fatherJob": "មុខរបរឪពុក",
+        "motherName": "ឈ្មោះម្តាយ",
+        "motherPhone": "ទូរស័ព្ទម្តាយ",
+        "motherJob": "មុខរបរម្តាយ",
+        "additionalDetails": "ព័ត៌មានបន្ថែម (មិនចាំបាច់)",
+        "moreIdentityCard": "ព័ត៌មានអត្តសញ្ញាណបន្ថែម",
+        "placeOfBirth": "ទីកន្លែងកំណើត",
+        "nationality": "សញ្ជាតិ",
+        "email": "អ៊ីមែល",
+        "addressBreakdownCard": "អាសយដ្ឋានលម្អិត",
+        "province": "ខេត្ត/ក្រុង",
+        "district": "ស្រុក/ខណ្ឌ",
+        "commune": "ឃុំ/សង្កាត់",
+        "village": "ភូមិ",
+        "academicPlacementCard": "ការចាត់ថ្នាក់សិក្សា",
+        "departmentField": "មហាវិទ្យាល័យ / ដេប៉ាតឺម៉ង់",
+        "selectDepartmentPlaceholder": "ជ្រើសរើសដេប៉ាតឺម៉ង់",
+        "studyProgramField": "ជំនាញ / កម្មវិធីសិក្សា",
+        "selectProgramPlaceholder": "ជ្រើសរើសកម្មវិធីសិក្សា",
+        "academicYearField": "ឆ្នាំសិក្សា / ជំនាន់",
+        "selectAcademicYearPlaceholder": "ជ្រើសរើសឆ្នាំសិក្សា",
+        "studyYear": "ឆ្នាំសិក្សាទី",
+        "semester": "ឆមាស",
+        "selectSemesterPlaceholder": "ជ្រើសរើសឆមាស",
+        "semester1": "ឆមាសទី១",
+        "semester2": "ឆមាសទី២",
+        "gpa": "ពិន្ទុមធ្យមភាគ (GPA)",
+        "creditsEarned": "ក្រេឌីតទទួលបាន",
+        "statusCardValidity": "ស្ថានភាព និងសុពលភាពប័ណ្ណ",
+        "status": "ស្ថានភាព",
+        "cardIssueDate": "ថ្ងៃចេញប័ណ្ណ",
+        "cardExpiryDate": "ថ្ងៃផុតកំណត់ប័ណ្ណ",
+        "submitDefault": "រក្សាទុកសិស្ស"
+      },
+      "filters": {
+        "searchPlaceholder": "ស្វែងរកឈ្មោះ ឬអត្តលេខសិស្ស…",
+        "allStatuses": "ស្ថានភាពទាំងអស់",
+        "allDepartments": "ដេប៉ាតឺម៉ង់ទាំងអស់"
+      },
+      "profile": {
+        "edit": "កែសម្រួល",
+        "delete": "លុប",
+        "deleteDialogTitle": "លុបសិស្សនេះ?",
+        "deleteDialogBody": "សកម្មភាពនេះនឹងលុប <name>{fullName}</name> ({code}) និងកំណត់ត្រាទាំងអស់ដែលពាក់ព័ន្ធ (ឪពុកម្តាយ ប័ណ្ណ និងប្រវត្តិ QR) ជាអចិន្ត្រៃយ៍។ សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។",
+        "personalInfo": "ព័ត៌មានផ្ទាល់ខ្លួន",
+        "gender": "ភេទ",
+        "phone": "ទូរស័ព្ទ",
+        "academicInfo": "ព័ត៌មានសិក្សា",
+        "batchAcademicYear": "ជំនាន់ / ឆ្នាំសិក្សា",
+        "currentGpa": "ពិន្ទុមធ្យមភាគបច្ចុប្បន្ន"
+      },
+      "table": {
+        "columnId": "អត្តលេខ",
+        "columnStudents": "សិស្ស",
+        "columnDob": "ថ្ងៃខែឆ្នាំកំណើត",
+        "columnFatherPhone": "ទូរស័ព្ទឪពុក",
+        "emptyState": "រកមិនឃើញសិស្សទេ។",
+        "viewProfile": "មើលប្រវត្តិរូប",
+        "deactivate": "ដាក់ជាអសកម្ម",
+        "activate": "ធ្វើឱ្យសកម្ម",
+        "selectAllAria": "ជ្រើសរើសសិស្សទាំងអស់ក្នុងទំព័រនេះ",
+        "selectStudentAria": "ជ្រើសរើស {name}"
+      },
+      "selection": {
+        "selectedCount": "{count, plural, other {បានជ្រើសរើស # នាក់}}",
+        "exportSelected": "នាំចេញសិស្សដែលបានជ្រើសរើស",
+        "moveToClass": "ផ្លាស់ប្តូរថ្នាក់",
+        "deleteSelected": "លុបសិស្សដែលបានជ្រើសរើស",
+        "clearSelection": "ដកការជ្រើសរើសចេញ",
+        "deleteConfirmTitle": "{count, plural, other {លុបសិស្ស # នាក់ចោលឬ?}}",
+        "deleteConfirmDescription": "សកម្មភាពនេះនឹងលុបសិស្សដែលបានជ្រើសរើស និងកំណត់ត្រាទាំងអស់ដែលពាក់ព័ន្ធ (ឪពុកម្តាយ ប័ណ្ណ និងប្រវត្តិ QR) ជាអចិន្ត្រៃយ៍។ សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ។"
+      },
+      "moveClass": {
+        "dialogTitle": "{count, plural, other {ផ្លាស់ប្តូរសិស្ស # នាក់}}",
+        "dialogDescription": "ជ្រើសរើសឆ្នាំសិក្សា និងថ្នាក់ថ្មីដែលត្រូវផ្លាស់ទៅ។ ថ្ងៃចេញ/ថ្ងៃផុតកំណត់ប័ណ្ណនឹងកំណត់ឡើងវិញដោយស្វ័យប្រវត្តិ ដើម្បីឱ្យសុពលភាពប័ណ្ណត្រូវនឹងឆ្នាំសិក្សាថ្មី។",
+        "regenerateQrLabel": "បង្កើតកូដ QR ថ្មីផងដែរ",
+        "regenerateQrHint": "QR លើប័ណ្ណបច្ចុប្បន្នរបស់ពួកគេនឹងលែងប្រើបានទៀត — សូមធីកប្រសិនបើអ្នកនឹងបោះពុម្ពប័ណ្ណថ្មី។",
+        "confirmButton": "{count, plural, other {ផ្លាស់ប្តូរសិស្ស # នាក់}}"
+      },
+      "renewExpired": {
+        "trigger": "ធ្វើឱ្យប័ណ្ណដែលផុតកំណត់សកម្មឡើងវិញ",
+        "dialogTitle": "ធ្វើឱ្យប័ណ្ណដែលផុតកំណត់សកម្មឡើងវិញ",
+        "dialogDescription": "ផ្លាស់ប្តូរសិស្សគ្រប់រូបដែលប័ណ្ណបានផុតកំណត់ ទៅជាថ្នាក់ និងឆ្នាំសិក្សាថ្មី ព្រមទាំងផ្តល់កូដ QR ថ្មីម្នាក់ៗ ដើម្បីកូដ QR ចាស់លែងប្រើបានទៀត។",
+        "sourceHeading": "សិស្សណាខ្លះ",
+        "searchPlaceholder": "ស្វែងរកឈ្មោះ ឬអត្តលេខសិស្ស…",
+        "currentClass": "ថ្នាក់បច្ចុប្បន្ន",
+        "matchCount": "{count, plural, =0 {គ្មានប័ណ្ណផុតកំណត់ត្រូវគ្នា} other {ប័ណ្ណ # ផុតកំណត់}}",
+        "destinationHeading": "ផ្លាស់ទៅ",
+        "renewButton": "ធ្វើឱ្យប័ណ្ណសកម្មឡើងវិញ",
+        "confirmTitle": "{count, plural, other {ធ្វើឱ្យប័ណ្ណ # សកម្មឡើងវិញឬ?}}",
+        "confirmDescription": "សកម្មភាពនេះនឹងផ្លាស់ប្តូរសិស្សគ្រប់រូបដែលត្រូវគ្នាទៅថ្នាក់/ឆ្នាំសិក្សាដែលបានជ្រើសរើស លុបកាលបរិច្ឆេទផុតកំណត់ចាស់ចោល និងផ្តល់កូដ QR ថ្មីម្នាក់ៗ — កូដ QR លើប័ណ្ណបច្ចុប្បន្នរបស់ពួកគេនឹងលែងប្រើបានទៀត។ សកម្មភាពនេះមិនអាចត្រឡប់វិញដោយស្វ័យប្រវត្តិបានទេ (ត្រូវផ្លាស់ប្តូរពួកគេត្រឡប់ក្រោយវិញដោយដៃ)។"
+      },
+      "pagination": {
+        "noResults": "គ្មានលទ្ធផល",
+        "showing": "កំពុងបង្ហាញ {from}-{to} នៃ {total}",
+        "previous": "មុន",
+        "pageOf": "ទំព័រ {page} នៃ {totalPages}",
+        "next": "បន្ទាប់"
+      },
+      "parentsCard": {
+        "add": "បន្ថែម",
+        "addDialogTitle": "បន្ថែមឪពុកម្តាយ / អាណាព្យាបាល",
+        "fullName": "ឈ្មោះពេញ",
+        "relationship": "ទំនាក់ទំនង",
+        "father": "ឪពុក",
+        "mother": "ម្តាយ",
+        "guardian": "អាណាព្យាបាល",
+        "emergencyContact": "កំណត់ជាទំនាក់ទំនងបន្ទាន់",
+        "addParent": "បន្ថែមឪពុកម្តាយ",
+        "noParents": "មិនទាន់មានទិន្នន័យឪពុកម្តាយ/អាណាព្យាបាលទេ។",
+        "noPhone": "គ្មានលេខទូរស័ព្ទ"
+      },
+      "create": {
+        "title": "បន្ថែមសិស្ស",
+        "subtitle": "បង្កើតកំណត់ត្រាសិស្សថ្មី។ កូដ QR និងអត្តលេខសិស្សនឹងត្រូវបានផ្តល់ដោយស្វ័យប្រវត្តិ។",
+        "submitLabel": "បង្កើតសិស្ស"
+      },
+      "edit": {
+        "title": "កែសម្រួលព័ត៌មានសិស្ស"
+      },
+      "list": {
+        "title": "សិស្ស",
+        "subtitle": "គ្រប់គ្រងកំណត់ត្រាសិស្ស ប័ណ្ណ និងស្ថានភាព",
+        "export": "នាំចេញ",
+        "addStudent": "បន្ថែមសិស្ស"
+      },
+      "bulkDeactivate": {
+        "trigger": "ដាក់អសកម្មច្រើន",
+        "dialogTitle": "ដាក់សិស្សអសកម្មច្រើននាក់",
+        "dialogDescription": "ដាក់សិស្សសកម្មទាំងអស់ដែលត្រូវនឹងថ្នាក់ ជំនាន់ ឬការស្វែងរកឈ្មោះ/អត្តលេខ ឱ្យទៅជាអសកម្ម។ សូមជ្រើសរើសលក្ខខណ្ឌយ៉ាងតិចមួយ។",
+        "nameOrCode": "ឈ្មោះ ឬអត្តលេខសិស្ស",
+        "allClasses": "ថ្នាក់ទាំងអស់",
+        "generation": "ជំនាន់",
+        "allGenerations": "ជំនាន់ទាំងអស់",
+        "gradeOption": "ថ្នាក់ទី {level}",
+        "matchCount": "{count, plural, =0 {គ្មានសិស្សសកម្មត្រូវគ្នា} other {សិស្សសកម្ម # នាក់ត្រូវគ្នា}}",
+        "confirmTitle": "{count, plural, other {លុបសិស្សសកម្ម # នាក់ចោលឬ?}}",
+        "confirmDescription": "សកម្មភាពនេះនឹងដាក់សិស្សសកម្មទាំងអស់ក្នុង {matchLabel} ឱ្យទៅជាអសកម្ម។ ប័ណ្ណ QR របស់ពួកគេនឹងឈប់ផ្ទៀងផ្ទាត់ថាសកម្ម។ អាចត្រឡប់វិញបានដោយធ្វើឱ្យសិស្សម្នាក់ៗសកម្មឡើងវិញ។",
+        "theSelectedFilters": "លក្ខខណ្ឌដែលបានជ្រើសរើស",
+        "classPart": "ថ្នាក់ {name}",
+        "gradePart": "ជំនាន់ {level}",
+        "matchingPart": "ត្រូវនឹង \"{query}\""
+      },
+      "exportDialog": {
+        "dialogTitle": "នាំចេញសិស្ស",
+        "dialogDescription": "ទាញយកឯកសារ Excel ដោយប្រើជួរឈរដូចគំរូនាំចូលច្រើននាក់ ដូច្នេះអាចកែសម្រួល និងនាំចូលមកវិញបាន។ ទុកលក្ខខណ្ឌទាំងអស់ទទេ ដើម្បីនាំចេញសិស្សទាំងអស់។",
+        "matchCount": "{count, plural, =0 {គ្មានសិស្សត្រូវគ្នា} other {នឹងនាំចេញសិស្ស # នាក់}}",
+        "exportButton": "នាំចេញ"
+      },
+      "bulkImport": {
+        "chooseFileFirst": "សូមជ្រើសរើសឯកសារជាមុនសិន",
+        "importFailed": "នាំចូលបរាជ័យ",
+        "imported": "{count, plural, other {បាននាំចូលសិស្ស # នាក់}}",
+        "trigger": "នាំចូលច្រើន",
+        "dialogTitle": "នាំចូលសិស្សច្រើននាក់",
+        "dialogDescription": "អាប់ឡូតឯកសារ Excel (.xlsx) ដែលមានទិន្នន័យសិស្ស។",
+        "downloadTemplate": "ទាញយកគំរូ",
+        "resultSummary": "បាននាំចូល {inserted} នាក់ បរាជ័យ {failed} នាក់",
+        "rowError": "ជួរទី {row}: {message}",
+        "importButton": "នាំចូល"
+      },
+      "photoUpload": {
+        "changePhoto": "ប្តូររូបថត",
+        "uploadPhoto": "អាប់ឡូតរូបថត",
+        "hint": "JPEG, PNG ឬ WebP មិនលើសពី 8MB។ ប្រើរូបថតបញ្ឈរ (4x6) ដើម្បីឱ្យសមនឹងប័ណ្ណបោះពុម្ព — វានឹងត្រូវបានបង្រួមដោយស្វ័យប្រវត្តិនៅពេលអាប់ឡូត។",
+        "uploadFailed": "អាប់ឡូតបរាជ័យ",
+        "noFileProvided": "មិនមានឯកសារទេ",
+        "invalidFileType": "អនុញ្ញាតតែរូបភាព JPEG, PNG ឬ WebP ប៉ុណ្ណោះ",
+        "fileTooLarge": "រូបភាពត្រូវតែតូចជាង 2MB"
+      },
+      "toast": {
+        "statusUpdated": "ស្ថានភាពត្រូវបានធ្វើបច្ចុប្បន្នភាព",
+        "parentAdded": "បានបន្ថែមឪពុកម្តាយ",
+        "parentRemoved": "បានលុបឪពុកម្តាយ",
+        "bulkStatusUpdated": "{count, plural, =0 {គ្មានសិស្សសកម្មត្រូវគ្នា} other {បានធ្វើបច្ចុប្បន្នភាពសិស្ស # នាក់}}",
+        "bulkClassChanged": "{count, plural, =0 {គ្មានសិស្សត្រូវផ្លាស់ប្តូរ} other {បានផ្លាស់ប្តូរសិស្ស # នាក់}}",
+        "bulkCardsRenewed": "{count, plural, =0 {គ្មានប័ណ្ណផុតកំណត់ត្រូវធ្វើឱ្យសកម្មឡើងវិញ} other {បានធ្វើឱ្យប័ណ្ណ # សកម្មឡើងវិញ}}",
+        "bulkDeleted": "{count, plural, other {បានលុបសិស្ស # នាក់}}"
+      }
+    },
+    "academics": {
+      "nav": {
+        "academicYears": "ឆ្នាំសិក្សា",
+        "classes": "ថ្នាក់រៀន",
+        "departments": "ដេប៉ាតឺម៉ង់"
+      },
+      "academicYear": {
+        "addTitle": "បន្ថែមឆ្នាំសិក្សា",
+        "editTitle": "កែសម្រួលឆ្នាំសិក្សា",
+        "name": "ឈ្មោះ",
+        "namePlaceholder": "ឧ. ២០២៦-២០២៧",
+        "startDate": "ថ្ងៃចាប់ផ្តើម",
+        "endDate": "ថ្ងៃបញ្ចប់",
+        "isCurrent": "ជាឆ្នាំសិក្សាបច្ចុប្បន្ន",
+        "isCurrentHint": "នឹងដកស្លាកបច្ចុប្បន្នចេញពីឆ្នាំសិក្សាផ្សេងទៀត",
+        "addButton": "បន្ថែមឆ្នាំសិក្សា",
+        "columnName": "ឈ្មោះ",
+        "columnStartDate": "ថ្ងៃចាប់ផ្តើម",
+        "columnEndDate": "ថ្ងៃបញ្ចប់",
+        "columnStatus": "ស្ថានភាព",
+        "emptyState": "មិនទាន់មានឆ្នាំសិក្សាទេ។",
+        "edit": "កែសម្រួល",
+        "delete": "លុប"
+      },
+      "class": {
+        "addTitle": "បន្ថែមថ្នាក់រៀន",
+        "editTitle": "កែសម្រួលថ្នាក់រៀន",
+        "name": "ឈ្មោះ",
+        "namePlaceholder": "ឧ. ថ្នាក់ទី១០ក",
+        "academicYear": "ឆ្នាំសិក្សា",
+        "selectAcademicYearPlaceholder": "ជ្រើសរើសឆ្នាំសិក្សា",
+        "department": "ដេប៉ាតឺម៉ង់",
+        "studyProgram": "កម្មវិធីសិក្សា",
+        "gradeLevel": "កម្រិតថ្នាក់",
+        "capacity": "សមត្ថភាពទទួល",
+        "addButton": "បន្ថែមថ្នាក់រៀន",
+        "columnName": "ឈ្មោះ",
+        "columnAcademicYear": "ឆ្នាំសិក្សា",
+        "columnDepartment": "ដេប៉ាតឺម៉ង់",
+        "columnCapacity": "សមត្ថភាពទទួល",
+        "emptyState": "មិនទាន់មានថ្នាក់រៀនទេ។",
+        "edit": "កែសម្រួល",
+        "delete": "លុប"
+      },
+      "generateClasses": {
+        "trigger": "បង្កើតថ្នាក់ច្រើន",
+        "dialogTitle": "បង្កើតថ្នាក់ច្រើន",
+        "dialogDescription": "បង្កើតថ្នាក់មួយក្នុងមួយផ្នែកក្នុងជំហានតែមួយ — ឧទាហរណ៍ ថ្នាក់ទី៧ជាមួយផ្នែក A–J នឹងបង្កើត 7A, 7B, … 7J។",
+        "namePrefix": "បុព្វបទឈ្មោះ",
+        "sections": "ផ្នែក",
+        "sectionsPlaceholder": "ឧ. A,B,C,D,E,F,G,H,I,J",
+        "sectionsHint": "បំបែកដោយសញ្ញាក្បៀស ឬដកឃ្លា។ នីមួយៗនឹងក្លាយជាថ្នាក់ដែលមានឈ្មោះជាបុព្វបទបូកនឹងផ្នែកនោះ។",
+        "preview": "{count, plural, =0 {មិនទាន់មានថ្នាក់ត្រូវបង្កើតទេ} other {នឹងបង្កើតថ្នាក់ # ៖}} {names}",
+        "submitButton": "{count, plural, =0 {បង្កើតថ្នាក់} other {បង្កើតថ្នាក់ # }}"
+      },
+      "classSelection": {
+        "selectedCount": "{count, plural, other {បានជ្រើសរើស # ថ្នាក់}}",
+        "copyToYear": "ចម្លងទៅឆ្នាំថ្មី",
+        "setDepartment": "កំណត់ដេប៉ាតឺម៉ង់",
+        "clearSelection": "ដកការជ្រើសរើសចេញ",
+        "selectAllAria": "ជ្រើសរើសថ្នាក់ទាំងអស់",
+        "selectClassAria": "ជ្រើសរើស {name}"
+      },
+      "copyClasses": {
+        "dialogTitle": "{count, plural, other {ចម្លងថ្នាក់ # }}",
+        "dialogDescription": "បង្កើតច្បាប់ចម្លងនៃថ្នាក់ដែលបានជ្រើសរើសនីមួយៗទៅឆ្នាំសិក្សាដែលបានជ្រើសរើស (ឈ្មោះ ដេប៉ាតឺម៉ង់ កម្មវិធីសិក្សា និងសមត្ថភាពដូចគ្នា)។ ថ្នាក់ដើមមិនត្រូវបានប៉ះពាល់ទេ។",
+        "confirmButton": "{count, plural, other {ចម្លងថ្នាក់ # }}"
+      },
+      "setDepartment": {
+        "dialogTitle": "{count, plural, other {កំណត់ដេប៉ាតឺម៉ង់សម្រាប់ថ្នាក់ # }}",
+        "dialogDescription": "អនុវត្តដេប៉ាតឺម៉ង់ដែលបានជ្រើសរើសទៅថ្នាក់ដែលបានជ្រើសរើសនីមួយៗ។",
+        "confirmButton": "{count, plural, other {កំណត់ដេប៉ាតឺម៉ង់សម្រាប់ថ្នាក់ # }}"
+      },
+      "department": {
+        "addTitle": "បន្ថែមដេប៉ាតឺម៉ង់",
+        "editTitle": "កែសម្រួលដេប៉ាតឺម៉ង់",
+        "code": "កូដ",
+        "codePlaceholder": "ឧ. SCI",
+        "nameEn": "ឈ្មោះ (អង់គ្លេស)",
+        "nameEnPlaceholder": "ឧ. Science",
+        "nameKm": "ឈ្មោះ (ខ្មែរ)",
+        "nameKmPlaceholder": "ឧ. វិទ្យាសាស្រ្ត",
+        "description": "ការពិពណ៌នា",
+        "isActive": "សកម្ម",
+        "addButton": "បន្ថែមដេប៉ាតឺម៉ង់",
+        "columnCode": "កូដ",
+        "columnNameEn": "ឈ្មោះ (អង់គ្លេស)",
+        "columnNameKm": "ឈ្មោះ (ខ្មែរ)",
+        "columnStatus": "ស្ថានភាព",
+        "emptyState": "មិនទាន់មានដេប៉ាតឺម៉ង់ទេ។",
+        "edit": "កែសម្រួល",
+        "delete": "លុប"
+      },
+      "page": {
+        "title": "សិក្សាធិការ",
+        "subtitle": "គ្រប់គ្រងដេប៉ាតឺម៉ង់ កម្មវិធីសិក្សា ឆ្នាំសិក្សា និងថ្នាក់រៀន"
+      },
+      "toast": {
+        "yearCreated": "ឆ្នាំសិក្សាត្រូវបានបង្កើត",
+        "yearUpdated": "ឆ្នាំសិក្សាត្រូវបានធ្វើបច្ចុប្បន្នភាព",
+        "yearDeleted": "ឆ្នាំសិក្សាត្រូវបានលុប",
+        "classCreated": "ថ្នាក់រៀនត្រូវបានបង្កើត",
+        "classUpdated": "ថ្នាក់រៀនត្រូវបានធ្វើបច្ចុប្បន្នភាព",
+        "classDeleted": "ថ្នាក់រៀនត្រូវបានលុប",
+        "classesGenerated": "{count, plural, other {បានបង្កើតថ្នាក់ # }}",
+        "classesCopied": "{count, plural, other {បានចម្លងថ្នាក់ # }}",
+        "classesDepartmentSet": "{count, plural, other {បានកំណត់ដេប៉ាតឺម៉ង់សម្រាប់ថ្នាក់ # }}",
+        "departmentCreated": "ដេប៉ាតឺម៉ង់ត្រូវបានបង្កើត",
+        "departmentUpdated": "ដេប៉ាតឺម៉ង់ត្រូវបានធ្វើបច្ចុប្បន្នភាព",
+        "departmentDeleted": "ដេប៉ាតឺម៉ង់ត្រូវបានលុប"
+      }
+    },
+    "dashboard": {
+      "title": "ផ្ទាំងគ្រប់គ្រង",
+      "subtitle": "ទិដ្ឋភាពទូទៅនៃសិស្ស និងសកម្មភាព",
+      "statTotalStudents": "សិស្សសរុប",
+      "statMale": "ប្រុស",
+      "statFemale": "ស្រី",
+      "statActiveStudents": "សិស្សសកម្ម",
+      "statGraduated": "បានបញ្ចប់ការសិក្សា",
+      "statQrScansToday": "ការស្កេន QR ថ្ងៃនេះ",
+      "enrollmentByYear": "ការចុះឈ្មោះតាមឆ្នាំ",
+      "studentsByGrade": "សិស្សតាមថ្នាក់ទី",
+      "genderDistribution": "ការបែងចែកតាមភេទ",
+      "provinceDistribution": "ការបែងចែកតាមខេត្ត",
+      "recentStudents": "សិស្សថ្មីៗ",
+      "latestActivity": "សកម្មភាពថ្មីៗ",
+      "noDataYet": "មិនទាន់មានទិន្នន័យទេ",
+      "noStudentsYet": "មិនទាន់មានសិស្សទេ។",
+      "noActivityYet": "មិនទាន់មានសកម្មភាពទេ។",
+      "system": "ប្រព័ន្ធ",
+      "chartSeriesStudents": "សិស្ស",
+      "action": {
+        "studentCreated": "បានបង្កើតសិស្សម្នាក់",
+        "studentUpdated": "បានធ្វើបច្ចុប្បន្នភាពសិស្សម្នាក់",
+        "studentDeleted": "បានលុបសិស្សម្នាក់",
+        "studentStatusChanged": "បានប្តូរស្ថានភាពសិស្ស",
+        "studentQrRegenerated": "បានបង្កើតកូដ QR ឡើងវិញ",
+        "studentBulkImported": "បាននាំចូលសិស្សច្រើននាក់",
+        "studentParentAdded": "បានបន្ថែមឪពុកម្តាយ/អាណាព្យាបាល",
+        "studentParentRemoved": "បានលុបឪពុកម្តាយ/អាណាព្យាបាល",
+        "qrScanned": "បានស្កេនកូដ QR",
+        "cardPrinted": "បានបោះពុម្ពប័ណ្ណសិស្ស"
+      }
+    },
+    "users": {
+      "list": {
+        "title": "អ្នកប្រើប្រាស់",
+        "subtitle": "រៀបចំគណនីបុគ្គលិកជាមុន និងគ្រប់គ្រងតួនាទី",
+        "addUser": "បន្ថែមអ្នកប្រើប្រាស់",
+        "searchPlaceholder": "ស្វែងរកអ៊ីមែល ឬឈ្មោះ…",
+        "columnUser": "អ្នកប្រើប្រាស់",
+        "columnRole": "តួនាទី",
+        "columnLastLogin": "ចូលចុងក្រោយ",
+        "columnStatus": "ស្ថានភាព",
+        "emptyState": "រកមិនឃើញអ្នកប្រើប្រាស់ទេ។",
+        "never": "មិនដែល",
+        "edit": "កែសម្រួល",
+        "resetPassword": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ",
+        "deactivate": "ដាក់អសកម្ម",
+        "activate": "ធ្វើឱ្យសកម្ម"
+      },
+      "form": {
+        "addTitle": "បន្ថែមអ្នកប្រើប្រាស់",
+        "editTitle": "កែសម្រួលអ្នកប្រើប្រាស់",
+        "addDescription": "រៀបចំគណនីជាមុន។ អ្នកប្រើប្រាស់នឹងចូលដោយប្រើអ៊ីមែលនេះឱ្យបានត្រឹមត្រូវ តាមរយៈ Google ឬអ៊ីមែល/ពាក្យសម្ងាត់។",
+        "editDescription": "ធ្វើបច្ចុប្បន្នភាពតួនាទី និងស្ថានភាពគណនីរបស់អ្នកប្រើប្រាស់នេះ។",
+        "email": "អ៊ីមែល",
+        "fullName": "ឈ្មោះពេញ",
+        "role": "តួនាទី",
+        "active": "សកម្ម",
+        "createUser": "បង្កើតអ្នកប្រើប្រាស់",
+        "cantRemoveOwnSuperAdmin": "អ្នកមិនអាចដកតួនាទីអ្នកគ្រប់គ្រងកំពូលរបស់អ្នកផ្ទាល់បានទេ។",
+        "cantDeactivateOwnAccount": "អ្នកមិនអាចដាក់គណនីរបស់អ្នកផ្ទាល់ជាអសកម្មបានទេ។"
+      },
+      "resetPasswordDialog": {
+        "title": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ",
+        "description": "ចែករំលែកពាក្យសម្ងាត់បណ្តោះអាសន្ននេះជាមួយ <email>{emailAddress}</email> — វានឹងមិនបង្ហាញម្តងទៀតទេ។ ពួកគេអាចចូលដោយប្រើវានៅ <code>/login</code> តាមរយៈអ៊ីមែល/ពាក្យសម្ងាត់។",
+        "done": "រួចរាល់"
+      }
+    },
+    "cards": {
+      "title": "ប័ណ្ណសម្គាល់ខ្លួន",
+      "subtitle": "ស្វែងរកសិស្ស ហើយទាញយកកូដ QR របស់ពួកគេដើម្បីដាក់លើប័ណ្ណបោះពុម្ព។",
+      "printCardsPdf": "បោះពុម្ពប័ណ្ណ (PDF)",
+      "downloadAllQrZip": "ទាញយក QR ទាំងអស់ (ZIP)",
+      "printSelectedPdf": "បោះពុម្ពដែលបានជ្រើសរើស ({count})",
+      "downloadSelectedQrZip": "ទាញយកដែលបានជ្រើសរើស ({count})",
+      "selectedCount": "បានជ្រើសរើស {count}",
+      "clearSelection": "សម្អាត",
+      "selectAllAria": "ជ្រើសរើសទាំងអស់ក្នុងទំព័រនេះ",
+      "selectStudentAria": "ជ្រើសរើស {name}",
+      "columnStudent": "សិស្ស",
+      "columnCode": "អត្តលេខ",
+      "columnStatus": "ស្ថានភាព",
+      "downloadQr": "ទាញយក QR",
+      "downloadCard": "ទាញយកប័ណ្ណ",
+      "printView": {
+        "summary": "ប័ណ្ណសិស្ស {count} — {pages} ទំព័រ ក្នុងមួយសន្លឹក ៦ ប័ណ្ណ (ផ្ដេក ២ ជួរ ៣ ជួរឈរ)។",
+        "printSaveAsPdf": "បោះពុម្ព / រក្សាទុកជា PDF",
+        "printHint": "ប្រើប្រអប់បោះពុម្ពរបស់កម្មវិធីរុករក ហើយជ្រើសរើស \"រក្សាទុកជា PDF\" ដើម្បីនាំចេញ ឬបោះពុម្ពដោយផ្ទាល់។ កំណត់មាត្រដ្ឋានទៅ 100% / \"លំនាំដើម\" (មិនមែន \"សមនឹងផ្ទៃបោះពុម្ព\")។",
+        "cardFor": "ប័ណ្ណសម្រាប់ {name}",
+        "cardExpired": "ប័ណ្ណនេះបានផុតកំណត់ហើយ។ ឆ្នាំសិក្សារបស់សិស្សនេះបានបញ្ចប់។"
+      }
+    },
+    "qr": {
+      "title": "កូដ QR",
+      "downloadQr": "ទាញយក QR",
+      "regenerateButton": "បង្កើតកូដ QR ឡើងវិញ",
+      "regenerateStudentTitle": "បង្កើតកូដ QR របស់សិស្សនេះឡើងវិញ?",
+      "regenerateDescription": "កូដ QR បច្ចុប្បន្ន (ឧ. នៅលើប័ណ្ណដែលបាត់ ឬមិនមានសុវត្ថិភាព) នឹងឈប់ដំណើរការភ្លាមៗ។ សូមទាញយកកូដ QR ថ្មី ហើយដាក់វានៅលើប័ណ្ណថ្មី។",
+      "regenerate": "បង្កើតឡើងវិញ",
+      "toast": {
+        "regenerated": "បានបង្កើតកូដ QR ថ្មី។ កូដ QR ចាស់លែងដំណើរការទៀតហើយ។",
+        "regenerateFailed": "បង្កើតកូដ QR ឡើងវិញបរាជ័យ"
+      }
+    },
+    "settings": {
+      "title": "ការកំណត់",
+      "subtitle": "គ្រប់គ្រងគណនីបុគ្គលិក និងអត្ថបទលើប័ណ្ណបោះពុម្ព",
+      "tabUsers": "អ្នកប្រើប្រាស់",
+      "tabCardText": "អត្ថបទប័ណ្ណ",
+      "cardText": {
+        "title": "ថ្ងៃចេញប័ណ្ណ",
+        "description": "បោះពុម្ពនៅលើប័ណ្ណសម្គាល់ខ្លួនផ្លូវការរបស់សិស្សគ្រប់សន្លឹក ក្បែរហត្ថលេខានាយក។ សូមធ្វើបច្ចុប្បន្នភាពដោយដៃរាល់ការបោះពុម្ព — ប្រតិទិនចន្ទគតិព្រះពុទ្ធសាសនាមិនអាចគណនាដោយស្វ័យប្រវត្តិបានទេ។",
+        "buddhistLine": "បន្ទាត់ប្រតិទិនព្រះពុទ្ធសាសនា",
+        "gregorianLine": "បន្ទាត់ប្រតិទិនគ្រិស្តសករាជ"
+      },
+      "toast": {
+        "cardTextUpdated": "អត្ថបទប័ណ្ណត្រូវបានធ្វើបច្ចុប្បន្នភាព"
+      }
+    },
+    "error": {
+      "title": "មានបញ្ហាកើតឡើង",
+      "description": "ទំព័រនេះជួបបញ្ហាដែលមិនបានរំពឹងទុក។ អ្នកអាចព្យាយាមម្តងទៀត ឬត្រឡប់ទៅផ្ទាំងគ្រប់គ្រង។",
+      "tryAgain": "ព្យាយាមម្តងទៀត",
+      "backToDashboard": "ត្រឡប់ទៅផ្ទាំងគ្រប់គ្រង"
+    }
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "common": {
+    "save": "Save changes",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "close": "Close",
+    "confirm": "Confirm",
+    "loading": "Loading…",
+    "noResultsFound": "No results found.",
+    "active": "Active",
+    "inactive": "Inactive",
+    "create": "Create",
+    "current": "Current"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "students": "Students",
+    "academics": "Academics",
+    "cards": "Cards",
+    "settings": "Settings"
+  },
+  "layout": {
+    "language": "Language",
+    "toggleTheme": "Toggle theme",
+    "languageSwitcher": {
+      "khmer": "ខ្មែរ",
+      "english": "English"
+    },
+    "profile": {
+      "myProfile": "My Profile",
+      "signOut": "Sign out",
+      "defaultUser": "User",
+      "dialogTitle": "My Profile",
+      "displayName": "Display Name",
+      "saveProfile": "Save Profile",
+      "changePasswordTitle": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "changePasswordButton": "Change Password",
+      "toast": {
+        "updated": "Profile updated",
+        "passwordChanged": "Password changed"
+      }
+    },
+    "collapse": "Collapse"
+  },
+  "enums": {
+    "role": {
+      "super_admin": "Super Admin",
+      "school_admin": "School Admin",
+      "teacher": "Teacher",
+      "student": "Student",
+      "visitor": "Visitor"
+    },
+    "studentStatus": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "graduated": "Graduated",
+      "suspended": "Suspended",
+      "transferred": "Transferred",
+      "expelled": "Expelled"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    }
+  },
+  "entity": {
+    "student": "Student",
+    "class": "Class",
+    "academicYear": "Academic year",
+    "user": "User",
+    "parent": "Parent"
+  },
+  "toast": {
+    "created": "{entity} created",
+    "updated": "{entity} updated",
+    "deleted": "{entity} deleted",
+    "genericError": "Something went wrong. Please try again.",
+    "signedOut": "Signed out"
+  },
+  "validation": {
+    "required": "Required",
+    "emailInvalid": "Enter a valid email address",
+    "passwordMinLength": "Password must be at least {min} characters",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "endDateAfterStart": "End date must be after start date",
+    "selectAcademicYear": "Select an academic year"
+  },
+  "public": {
+    "login": {
+      "title": "Staff & Teacher Sign In",
+      "subtitle": "Access the student management system"
+    },
+    "unauthorized": {
+      "title": "Access denied",
+      "description": "Your account doesn't have permission to view this page. If you believe this is a mistake, contact your school administrator.",
+      "backToSignIn": "Back to sign in"
+    },
+    "verification": {
+      "fullProfile": "Full Profile",
+      "success": {
+        "verified": "Verified Student",
+        "personalInfo": "Personal Information",
+        "sex": "Sex",
+        "dob": "Date of Birth",
+        "phone": "Phone",
+        "address": "Address",
+        "parentGuardian": "Parent / Guardian",
+        "father": "Father",
+        "mother": "Mother",
+        "active": "Active",
+        "studentCode": "Student ID: {code}",
+        "classLabel": "Class {className}"
+      },
+      "failed": {
+        "not_found": {
+          "title": "Invalid QR Code",
+          "description": "This QR code does not match any student record."
+        },
+        "expired": {
+          "title": "Card Expired",
+          "description": "This student's ID card has expired."
+        },
+        "inactive": {
+          "title": "Student Not Active",
+          "description": "This student is not currently active at the school."
+        }
+      }
+    }
+  },
+  "admin": {
+    "students": {
+      "statusBadge": {
+        "expired": "Expired"
+      },
+      "form": {
+        "identityCard": "Identity",
+        "photo": "Photo",
+        "studentId": "Student ID",
+        "studentIdPlaceholder": "Auto-generated if left blank",
+        "sex": "Sex",
+        "nameKhmer": "Name (Khmer)",
+        "dateOfBirth": "Date of Birth",
+        "phoneNumber": "Phone Number",
+        "address": "Address",
+        "classField": "Class",
+        "selectClassPlaceholder": "Select class",
+        "parentsCard": "Parents / Guardians",
+        "fatherName": "Father Name",
+        "fatherPhone": "Father Phone",
+        "fatherJob": "Father Job",
+        "motherName": "Mother Name",
+        "motherPhone": "Mother Phone",
+        "motherJob": "Mother Job",
+        "additionalDetails": "Additional details (optional)",
+        "moreIdentityCard": "More Identity Details",
+        "placeOfBirth": "Place of Birth",
+        "nationality": "Nationality",
+        "email": "Email",
+        "addressBreakdownCard": "Address Breakdown",
+        "province": "Province",
+        "district": "District",
+        "commune": "Commune",
+        "village": "Village",
+        "academicPlacementCard": "Academic Placement",
+        "departmentField": "Faculty / Department",
+        "selectDepartmentPlaceholder": "Select department",
+        "studyProgramField": "Major / Study Program",
+        "selectProgramPlaceholder": "Select program",
+        "academicYearField": "Academic Year / Batch",
+        "selectAcademicYearPlaceholder": "Select academic year",
+        "studyYear": "Study Year",
+        "semester": "Semester",
+        "selectSemesterPlaceholder": "Select semester",
+        "semester1": "Semester 1",
+        "semester2": "Semester 2",
+        "gpa": "GPA",
+        "creditsEarned": "Credits Earned",
+        "statusCardValidity": "Status & Card Validity",
+        "status": "Status",
+        "cardIssueDate": "Card Issue Date",
+        "cardExpiryDate": "Card Expiry Date",
+        "submitDefault": "Save student"
+      },
+      "filters": {
+        "searchPlaceholder": "Search name or student code…",
+        "allStatuses": "All statuses",
+        "allDepartments": "All departments"
+      },
+      "profile": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "deleteDialogTitle": "Delete this student?",
+        "deleteDialogBody": "This permanently deletes <name>{fullName}</name> ({code}) and all related records (parents, cards, QR history). This cannot be undone.",
+        "personalInfo": "Personal Information",
+        "gender": "Gender",
+        "phone": "Phone",
+        "academicInfo": "Academic Information",
+        "batchAcademicYear": "Batch / Academic Year",
+        "currentGpa": "Current GPA"
+      },
+      "table": {
+        "columnId": "ID",
+        "columnStudents": "Students",
+        "columnDob": "DOB",
+        "columnFatherPhone": "Father Phone",
+        "emptyState": "No students found.",
+        "viewProfile": "View profile",
+        "deactivate": "Deactivate",
+        "activate": "Activate",
+        "selectAllAria": "Select all students on this page",
+        "selectStudentAria": "Select {name}"
+      },
+      "selection": {
+        "selectedCount": "{count, plural, one {# selected} other {# selected}}",
+        "exportSelected": "Export Selected",
+        "moveToClass": "Move to Class",
+        "deleteSelected": "Delete Selected",
+        "clearSelection": "Clear selection",
+        "deleteConfirmTitle": "{count, plural, one {Delete # student?} other {Delete # students?}}",
+        "deleteConfirmDescription": "This permanently deletes the selected students and all related records (parents, cards, QR history). This cannot be undone."
+      },
+      "moveClass": {
+        "dialogTitle": "{count, plural, one {Move # student} other {Move # students}}",
+        "dialogDescription": "Choose the destination academic year and class. Card issue/expiry dates reset automatically so validity follows the new academic year.",
+        "regenerateQrLabel": "Also generate new QR codes",
+        "regenerateQrHint": "Invalidates the QR on their currently printed card — check this if you're printing new physical cards.",
+        "confirmButton": "{count, plural, one {Move # student} other {Move # students}}"
+      },
+      "renewExpired": {
+        "trigger": "Renew Expired Cards",
+        "dialogTitle": "Renew Expired Cards",
+        "dialogDescription": "Move every student whose card has expired into a new class and academic year, and issue each a fresh QR code so the old one can't be reused.",
+        "sourceHeading": "Which students",
+        "searchPlaceholder": "Search name or student code…",
+        "currentClass": "Current class",
+        "matchCount": "{count, plural, =0 {No expired cards match} one {# card has expired} other {# cards have expired}}",
+        "destinationHeading": "Move them to",
+        "renewButton": "Renew Cards",
+        "confirmTitle": "{count, plural, one {Renew # card?} other {Renew # cards?}}",
+        "confirmDescription": "This moves every matching student into the chosen class and academic year, clears their card expiry, and issues each a new QR code — the QR on their current printed card will stop working. This can't be undone automatically; you'd need to move them back by hand."
+      },
+      "pagination": {
+        "noResults": "No results",
+        "showing": "Showing {from}-{to} of {total}",
+        "previous": "Previous",
+        "pageOf": "Page {page} of {totalPages}",
+        "next": "Next"
+      },
+      "parentsCard": {
+        "add": "Add",
+        "addDialogTitle": "Add parent / guardian",
+        "fullName": "Full Name",
+        "relationship": "Relationship",
+        "father": "Father",
+        "mother": "Mother",
+        "guardian": "Guardian",
+        "emergencyContact": "Set as emergency contact",
+        "addParent": "Add parent",
+        "noParents": "No parents/guardians on file.",
+        "noPhone": "no phone"
+      },
+      "create": {
+        "title": "Add Student",
+        "subtitle": "Create a new student record. A QR code and student ID are assigned automatically.",
+        "submitLabel": "Create student"
+      },
+      "edit": {
+        "title": "Edit Student"
+      },
+      "list": {
+        "title": "Students",
+        "subtitle": "Manage student records, cards, and status",
+        "export": "Export",
+        "addStudent": "Add Student"
+      },
+      "bulkDeactivate": {
+        "trigger": "Bulk Deactivate",
+        "dialogTitle": "Bulk Deactivate Students",
+        "dialogDescription": "Deactivate every active student matching a class, generation, or name/ID search. Choose at least one filter.",
+        "nameOrCode": "Name or student code",
+        "allClasses": "All classes",
+        "generation": "Generation",
+        "allGenerations": "All generations",
+        "gradeOption": "Grade {level}",
+        "matchCount": "{count, plural, =0 {No active students match} one {# active student matches} other {# active students match}}",
+        "confirmTitle": "{count, plural, one {Deactivate # student?} other {Deactivate # students?}}",
+        "confirmDescription": "This sets every active student in {matchLabel} to inactive. Their QR cards will stop verifying as active. This can be undone by reactivating students individually.",
+        "theSelectedFilters": "the selected filters",
+        "classPart": "class {name}",
+        "gradePart": "grade {level}",
+        "matchingPart": "matching \"{query}\""
+      },
+      "exportDialog": {
+        "dialogTitle": "Export Students",
+        "dialogDescription": "Downloads an Excel file using the same columns as the Bulk Import template, so it can be edited and re-imported. Leave every filter blank to export everyone.",
+        "matchCount": "{count, plural, =0 {No students match} one {# student will be exported} other {# students will be exported}}",
+        "exportButton": "Export"
+      },
+      "bulkImport": {
+        "chooseFileFirst": "Choose a file first",
+        "importFailed": "Import failed",
+        "imported": "{count, plural, one {Imported # student} other {Imported # students}}",
+        "trigger": "Bulk Import",
+        "dialogTitle": "Bulk import students",
+        "dialogDescription": "Upload an Excel file (.xlsx) with student records.",
+        "downloadTemplate": "Download template",
+        "resultSummary": "{inserted} imported, {failed} failed",
+        "rowError": "Row {row}: {message}",
+        "importButton": "Import"
+      },
+      "photoUpload": {
+        "changePhoto": "Change photo",
+        "uploadPhoto": "Upload photo",
+        "hint": "JPEG, PNG, or WebP, up to 8MB. Use a portrait (4x6) photo for best fit on the printed card — it's automatically compressed on upload.",
+        "uploadFailed": "Upload failed",
+        "noFileProvided": "No file provided",
+        "invalidFileType": "Only JPEG, PNG, or WebP images are allowed",
+        "fileTooLarge": "Image must be smaller than 2MB"
+      },
+      "toast": {
+        "statusUpdated": "Status updated",
+        "parentAdded": "Parent added",
+        "parentRemoved": "Parent removed",
+        "bulkStatusUpdated": "{count, plural, =0 {No matching active students} one {Updated # student} other {Updated # students}}",
+        "bulkClassChanged": "{count, plural, =0 {No students to move} one {Moved # student} other {Moved # students}}",
+        "bulkCardsRenewed": "{count, plural, =0 {No expired cards to renew} one {Renewed # card} other {Renewed # cards}}",
+        "bulkDeleted": "{count, plural, one {Deleted # student} other {Deleted # students}}"
+      }
+    },
+    "academics": {
+      "nav": {
+        "academicYears": "Academic Years",
+        "classes": "Classes",
+        "departments": "Departments"
+      },
+      "academicYear": {
+        "addTitle": "Add Academic Year",
+        "editTitle": "Edit Academic Year",
+        "name": "Name",
+        "namePlaceholder": "e.g. 2026-2027",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "isCurrent": "Current academic year",
+        "isCurrentHint": "Unsets any other year marked current",
+        "addButton": "Add Academic Year",
+        "columnName": "Name",
+        "columnStartDate": "Start Date",
+        "columnEndDate": "End Date",
+        "columnStatus": "Status",
+        "emptyState": "No academic years yet.",
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "class": {
+        "addTitle": "Add Class",
+        "editTitle": "Edit Class",
+        "name": "Name",
+        "namePlaceholder": "e.g. Grade 10A",
+        "academicYear": "Academic Year",
+        "selectAcademicYearPlaceholder": "Select academic year",
+        "department": "Department",
+        "studyProgram": "Study Program",
+        "gradeLevel": "Grade Level",
+        "capacity": "Capacity",
+        "addButton": "Add Class",
+        "columnName": "Name",
+        "columnAcademicYear": "Academic Year",
+        "columnDepartment": "Department",
+        "columnCapacity": "Capacity",
+        "emptyState": "No classes yet.",
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "generateClasses": {
+        "trigger": "Generate Classes",
+        "dialogTitle": "Generate Classes",
+        "dialogDescription": "Create one class per section in a single step — e.g. grade 7 with sections A–J creates 7A, 7B, … 7J.",
+        "namePrefix": "Name Prefix",
+        "sections": "Sections",
+        "sectionsPlaceholder": "e.g. A,B,C,D,E,F,G,H,I,J",
+        "sectionsHint": "Comma or space separated. Each one becomes a class named as the prefix plus that section.",
+        "preview": "{count, plural, =0 {No classes to create yet} one {Will create # class:} other {Will create # classes:}} {names}",
+        "submitButton": "{count, plural, =0 {Generate Classes} one {Generate # Class} other {Generate # Classes}}"
+      },
+      "classSelection": {
+        "selectedCount": "{count, plural, one {# selected} other {# selected}}",
+        "copyToYear": "Copy to New Year",
+        "setDepartment": "Set Department",
+        "clearSelection": "Clear selection",
+        "selectAllAria": "Select all classes",
+        "selectClassAria": "Select {name}"
+      },
+      "copyClasses": {
+        "dialogTitle": "{count, plural, one {Copy # Class} other {Copy # Classes}}",
+        "dialogDescription": "Creates a duplicate of each selected class in the chosen academic year (same name, department, study program, and capacity). The original classes are left untouched.",
+        "confirmButton": "{count, plural, one {Copy # Class} other {Copy # Classes}}"
+      },
+      "setDepartment": {
+        "dialogTitle": "{count, plural, one {Set Department for # Class} other {Set Department for # Classes}}",
+        "dialogDescription": "Applies the chosen department to every selected class.",
+        "confirmButton": "{count, plural, one {Set Department for # Class} other {Set Department for # Classes}}"
+      },
+      "department": {
+        "addTitle": "Add Department",
+        "editTitle": "Edit Department",
+        "code": "Code",
+        "codePlaceholder": "e.g. SCI",
+        "nameEn": "Name (English)",
+        "nameEnPlaceholder": "e.g. Science",
+        "nameKm": "Name (Khmer)",
+        "nameKmPlaceholder": "e.g. វិទ្យាសាស្រ្ត",
+        "description": "Description",
+        "isActive": "Active",
+        "addButton": "Add Department",
+        "columnCode": "Code",
+        "columnNameEn": "Name (English)",
+        "columnNameKm": "Name (Khmer)",
+        "columnStatus": "Status",
+        "emptyState": "No departments yet.",
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "page": {
+        "title": "Academics",
+        "subtitle": "Manage departments, study programs, academic years, and classes"
+      },
+      "toast": {
+        "yearCreated": "Academic year created",
+        "yearUpdated": "Academic year updated",
+        "yearDeleted": "Academic year deleted",
+        "classCreated": "Class created",
+        "classUpdated": "Class updated",
+        "classDeleted": "Class deleted",
+        "classesGenerated": "{count, plural, one {# class created} other {# classes created}}",
+        "classesCopied": "{count, plural, one {# class copied} other {# classes copied}}",
+        "classesDepartmentSet": "{count, plural, one {Department set for # class} other {Department set for # classes}}",
+        "departmentCreated": "Department created",
+        "departmentUpdated": "Department updated",
+        "departmentDeleted": "Department deleted"
+      }
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "Overview of students and activity",
+      "statTotalStudents": "Total Students",
+      "statMale": "Male",
+      "statFemale": "Female",
+      "statActiveStudents": "Active Students",
+      "statGraduated": "Graduated",
+      "statQrScansToday": "QR Scans Today",
+      "enrollmentByYear": "Enrollment by Year",
+      "studentsByGrade": "Students by Grade",
+      "genderDistribution": "Gender Distribution",
+      "provinceDistribution": "Province Distribution",
+      "recentStudents": "Recent Students",
+      "latestActivity": "Latest Activity",
+      "noDataYet": "No data yet",
+      "noStudentsYet": "No students yet.",
+      "noActivityYet": "No activity yet.",
+      "system": "System",
+      "chartSeriesStudents": "Students",
+      "action": {
+        "studentCreated": "created a student",
+        "studentUpdated": "updated a student",
+        "studentDeleted": "deleted a student",
+        "studentStatusChanged": "changed student status",
+        "studentQrRegenerated": "regenerated a QR code",
+        "studentBulkImported": "bulk-imported students",
+        "studentParentAdded": "added a parent/guardian",
+        "studentParentRemoved": "removed a parent/guardian",
+        "qrScanned": "scanned a QR code",
+        "cardPrinted": "printed a student card"
+      }
+    },
+    "users": {
+      "list": {
+        "title": "Users",
+        "subtitle": "Pre-provision staff accounts and manage roles",
+        "addUser": "Add User",
+        "searchPlaceholder": "Search email or name…",
+        "columnUser": "User",
+        "columnRole": "Role",
+        "columnLastLogin": "Last Login",
+        "columnStatus": "Status",
+        "emptyState": "No users found.",
+        "never": "Never",
+        "edit": "Edit",
+        "resetPassword": "Reset password",
+        "deactivate": "Deactivate",
+        "activate": "Activate"
+      },
+      "form": {
+        "addTitle": "Add User",
+        "editTitle": "Edit User",
+        "addDescription": "Pre-provision an account. The person signs in with this exact email via Google or Email/Password.",
+        "editDescription": "Update this user's role and account status.",
+        "email": "Email",
+        "fullName": "Full Name",
+        "role": "Role",
+        "active": "Active",
+        "createUser": "Create user",
+        "cantRemoveOwnSuperAdmin": "You can't remove your own Super Admin role.",
+        "cantDeactivateOwnAccount": "You can't deactivate your own account."
+      },
+      "resetPasswordDialog": {
+        "title": "Password reset",
+        "description": "Share this temporary password with <email>{emailAddress}</email> — it won't be shown again. They can sign in with it at <code>/login</code> using email/password.",
+        "done": "Done"
+      }
+    },
+    "cards": {
+      "title": "Cards",
+      "subtitle": "Find a student and download their QR code to place on your printed cards.",
+      "printCardsPdf": "Print Cards (PDF)",
+      "downloadAllQrZip": "Download All QR (ZIP)",
+      "printSelectedPdf": "Print Selected ({count})",
+      "downloadSelectedQrZip": "Download Selected ({count})",
+      "selectedCount": "{count} selected",
+      "clearSelection": "Clear",
+      "selectAllAria": "Select all on this page",
+      "selectStudentAria": "Select {name}",
+      "columnStudent": "Student",
+      "columnCode": "Code",
+      "columnStatus": "Status",
+      "downloadQr": "Download QR",
+      "downloadCard": "Download Card",
+      "printView": {
+        "summary": "{count, plural, one {# student card} other {# student cards}} — {pages, plural, one {# page} other {# pages}} at 6 per sheet (landscape, 2 rows of 3).",
+        "printSaveAsPdf": "Print / Save as PDF",
+        "printHint": "Use your browser's print dialog and choose \"Save as PDF\" to export, or print directly. Set scale to 100% / \"Default\" (not \"Fit to printable area\").",
+        "cardFor": "Card for {name}",
+        "cardExpired": "This card has expired. The student's academic year has ended."
+      }
+    },
+    "qr": {
+      "title": "QR Code",
+      "downloadQr": "Download QR",
+      "regenerateButton": "Regenerate QR Code",
+      "regenerateStudentTitle": "Regenerate this student's QR code?",
+      "regenerateDescription": "The current QR code (e.g. on a lost or compromised card) will stop working immediately. Download the new QR code and place it on a replacement card.",
+      "regenerate": "Regenerate",
+      "toast": {
+        "regenerated": "New QR code generated. The old QR code no longer works.",
+        "regenerateFailed": "Failed to regenerate QR code"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "subtitle": "Manage staff accounts and printed card text",
+      "tabUsers": "Users",
+      "tabCardText": "Card Text",
+      "cardText": {
+        "title": "Card Issue Date",
+        "description": "Printed on every official student ID card, next to the principal's signature. Update by hand each print batch — the Khmer Buddhist lunar calendar can't be computed automatically.",
+        "buddhistLine": "Buddhist calendar line",
+        "gregorianLine": "Gregorian calendar line"
+      },
+      "toast": {
+        "cardTextUpdated": "Card text updated"
+      }
+    },
+    "error": {
+      "title": "Something went wrong",
+      "description": "This page hit an unexpected error. You can try again, or head back to the dashboard.",
+      "tryAgain": "Try again",
+      "backToDashboard": "Back to dashboard"
+    }
+  }
+}
